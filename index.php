@@ -45,7 +45,7 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">关于 <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a target="_blank" href="https://github.com/muzihauner/onecloud-dashboard">GitHub</a></li>
+                            <li><a target="_blank" href="https://github.com/muzihuaner/onecloud-dashboard">GitHub</a></li>
                         </ul>
                     </li>
                 </ul>

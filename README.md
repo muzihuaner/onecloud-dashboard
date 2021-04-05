@@ -22,7 +22,7 @@ Onecloud-Dashboard (玩客云-仪表盘) 是一个开源的 IoT 设备监控工�
 
 安装共2步，首先安装 Nginx（或 Apache）和 PHP。然后在 Nginx 目录通过 SFTP 或 GitHub 部署好本项目的程序。
 
-##### 1.安装 Nginx 和 PHP
+##### 1.安装 Nginx 和 PHP（如果你安装了，跳过这步）
 
 在 玩客云 的终端运行以下命令：
 
@@ -75,7 +75,7 @@ sudo service nginx restart
 这里介绍两种方法将 Onecloud-Dashboard 部署在 Nginx 上。
 **2.1. SFTP 上传**
 在 GitHub 下载本项目源码。通过 FileZilla 等 FTP 软件将解压出来的目录上传到玩客云的 `/var/www/html` 目录下。
-那么可以通过 `http://玩客云IP/pi-dashboard` 访问部署好了的 Onecloud-Dashboard。
+那么可以通过 `http://玩客云IP/onecloud-dashboard` 访问部署好了的 Onecloud-Dashboard。
 
 如果页面无法显示，可以尝试在玩客云终端给源码添加运行权限，例如你上传之后的路径是 `/var/www/html/onecloud-dashboard`，则运行。
 
@@ -85,7 +85,7 @@ sudo chown -R www-data onecloud-dashboard
 ```
 
 **2.2. GitHub 部署**
-如果你了解过 GitHub 的基本操作，通过 GitHub 来下载本项目到 Pi 上会相当方便。
+如果你了解过 GitHub 的基本操作，通过 GitHub 来下载本项目到 玩客云上会相当方便。
 
 ```
 #如果已安装过 git 客户端可以跳过下一行

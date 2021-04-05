@@ -14,6 +14,10 @@ Onecloud-Dashboard (玩客云-仪表盘) 是一个开源的 IoT 设备监控工�
 - 网络接口的实时数据
 - 玩客云IP、运行时间、操作系统、HOST 等基础信息
 
+### 演示地址
+
+http://nas.quickso.cn/onecloud-dashboard/index.php
+
 #### 仪表盘预览
 
 ![image-20210405105130216](https://cdn.jsdelivr.net/gh/muzihuaner/huancdn/img/20210405105130.png)
